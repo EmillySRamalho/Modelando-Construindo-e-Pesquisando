@@ -29,16 +29,6 @@ Este projeto gerencia as **vendas de cafés** da cafeteria BomGosto através de 
 | `codigo_cardapio` | Código do café                     |
 | `quantidade`    | Quantidade vendida                 |
 
----
-
-## 🔹 Consultas SQL
-
-### 1️⃣ Listar cardápio por nome
-```sql
-SELECT codigo, nome, descricao, preco_unitario
-FROM Cardapio
-ORDER BY nome ASC;
-
 
 📊 Funcionalidades
 
